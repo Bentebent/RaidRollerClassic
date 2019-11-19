@@ -1,0 +1,7 @@
+## Interface: 11302
+## Title: RaidRoller
+## Notes: Raid rolling addon
+## Author: Filidutten
+## Version: 1.0
+
+RaidRoller.lua
