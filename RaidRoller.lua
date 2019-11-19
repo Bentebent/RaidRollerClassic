@@ -63,6 +63,7 @@ frame:RegisterEvent("CHAT_MSG_SYSTEM");
 frame:SetScript("OnEvent", function(addonLoadedFrame, event, arg1)
 	if event == "PLAYER_LOGIN" then
 		print("|cFF32a3beRaid roller:|r Type /rr <item> to roll")
+		print("|cFF32a3beRaid roller:|r Type /rr list to show sorted raider list")
 	elseif event == "CHAT_MSG_SYSTEM" then		
 		if performedRaidRoll == true then
 			for name, roll, low, high in string.gmatch(arg1, rollPattern) do
